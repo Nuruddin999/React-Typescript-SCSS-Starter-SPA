@@ -9,6 +9,20 @@ A minimal **React + TypeScript + Webpack** starter template with **SCSS Modules*
 
 ---
 
+A minimal **React + TypeScript + Webpack** starter template with **SCSS Modules** support.  
+✨ **Ready for further integrations** (e.g. Microfrontends, Module Federation, code splitting, etc.)
+
+---
+
+## 🌟 Features
+- ⚛️ **React 18** with TypeScript
+- 🎨 **SCSS Modules** (imported via `styles`)
+- 🛠 **Structured Webpack config** (ready for Microfrontends & Module Federation)
+- 📦 **MiniCssExtractPlugin** for production builds
+- 🚦 **SPA-ready dev server** with `historyApiFallback`
+
+---
+
 ## 🚀 Tech Stack
 - **React 18**
 - **TypeScript**
@@ -48,3 +62,10 @@ const App = () => (
 );
 
 export default App;
+
+```
+
+## ⚙️ Webpack Configuration
+
+This starter comes with a **minimal but structured Webpack config**,  
+ready for further integrations (e.g. Microfrontends, Module Federation, code splitting, etc.).
